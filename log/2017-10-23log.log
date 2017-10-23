@@ -1,0 +1,32 @@
+2017-10-23 11:59:06.342 [main] INFO  com.leifeng.demo.Springbootdemo3Application - Starting Springbootdemo3Application on sbapple-PC with PID 7708 (D:\JetBrains\project\git\springbootdemo3\target\classes started by Administrator in D:\JetBrains\project\git\springbootdemo3)
+2017-10-23 11:59:06.344 [main] INFO  com.leifeng.demo.Springbootdemo3Application - No active profile set, falling back to default profiles: default
+2017-10-23 11:59:06.407 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f8c1ddd: startup date [Mon Oct 23 11:59:06 CST 2017]; root of context hierarchy
+2017-10-23 11:59:07.464 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-10-23 11:59:07.934 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8282 (http)
+2017-10-23 11:59:07.942 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-10-23 11:59:07.944 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-10-23 11:59:08.020 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/hello] - Initializing Spring embedded WebApplicationContext
+2017-10-23 11:59:08.020 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1613 ms
+2017-10-23 11:59:08.150 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-23 11:59:08.156 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-23 11:59:08.156 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-23 11:59:08.156 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-23 11:59:08.156 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-23 11:59:08.460 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f8c1ddd: startup date [Mon Oct 23 11:59:06 CST 2017]; root of context hierarchy
+2017-10-23 11:59:08.513 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/{name}]}" onto public java.lang.String com.leifeng.demo.controller.HelloController.helloName(java.lang.String)
+2017-10-23 11:59:08.514 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.leifeng.demo.controller.HelloController.helloWorld()
+2017-10-23 11:59:08.516 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-23 11:59:08.517 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-23 11:59:08.544 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 11:59:08.544 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 11:59:08.575 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-23 11:59:08.725 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-10-23 11:59:08.746 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8282"]
+2017-10-23 11:59:08.755 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8282"]
+2017-10-23 11:59:08.769 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-10-23 11:59:08.790 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8282 (http)
+2017-10-23 11:59:08.794 [main] INFO  com.leifeng.demo.Springbootdemo3Application - Started Springbootdemo3Application in 3.016 seconds (JVM running for 4.659)
+2017-10-23 11:59:12.547 [http-nio-8282-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/hello] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-23 11:59:12.547 [http-nio-8282-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-10-23 11:59:12.567 [http-nio-8282-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2017-10-23 11:59:12.593 [http-nio-8282-exec-1] INFO  com.leifeng.demo.controller.HelloController - 访问hello world
